@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(116, 112, 112);
+}
+.nav{
+    background-color: rgb(116, 245, 116);
+    height: 4rem;
+    width: 101%;
+    margin: 0%;
+    padding: 0%;
+}
+input{
+    border-radius: 7px;
+}
+.menu{
+    height: 32px;
+    width: 30px;
+    
+    
+}
+.icon{
+    width: 81%;
+    height: 17%;
+    background-color: rgb(102, 99, 99);
+    margin: 4px -24px;
+    
+}
+.icon:hover{
+    background-color: black;
+    position: fixed;
+    height:100rem;
+    width: 10rem;
+    display: block;
+    
+}
+
+
+
+.nav ul{
+    display: inline-flex;
+   text-align: center;
+   font-size: x-large;
+}
+.nav ul li{
+    width: 187px;
+    margin: -4px;
+    
+    
+}
+   
+.nav ul li a{
+    text-decoration: solid;
+    color: blueviolet;
+}
+.nav ul li:hover{
+    background-color: aquamarine;
+    display: block;
+    border-radius: 3px;
+}
+.sub{
+    display: none;
+
+}
+.nav  ul li:hover .sub{
+    display: block;
+    position: absolute;
+    background-color: aliceblue;
+   
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    height: 32rem;
+    margin: 0;
+    margin-top: 10px;
+    animation: slider 20s infinite linear;
+}
+@keyframes slider{
+    0%{left: 0;}
+    20%{left: 0;}
+    40%{left: -105%;}
+    50%{left: -105%;}
+    60%{left: -208%;}
+    80%{left: -208%;}
+    100%{left: 0%;}
+}
